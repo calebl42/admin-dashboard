@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <nav class="dashboard">
+    <h1><img src="assets/dashboard-outline.svg" width="40px">Dashboard</h1>
+    <ul class="d1">
+      <a href="#"><li><img src="assets/home-circle-outline.svg" width="32px">Home</li></a>
+      <a href="#"><li><img src="assets/account-circle-outline.svg" width="32px">Profile</li></a>
+      <a href="#"><li><img src="assets/chat-outline.svg" width="32px">Messages</li></a>
+      <a href="#"><li><img src="assets/history.svg" width="32px">History</li></a>
+      <a href="#"><li><img src="assets/checkbox-marked-circle-auto-outline.svg" width="32px">Tasks</li></a>
+      <a href="#"><li><img src="assets/account-group-outline.svg" width="32px">Communities</li>
+    </ul>
+    <ul class="d2">
+      <a href="#"><li><img src="assets/cog-outline.svg" width="32px">Settings</li></a>
+      <a href="#"><li><img src="assets/face-agent.svg" width="32px">Support</li></a>  
+      <a href="#"><li><img src="assets/shield-lock-outline.svg" width="32px">Privacy</li></a>
+    </ul>
+  </nav>
+  <div class="main-content">
+    <header>
+      <div class="search-bar">
+        <img src="assets/magnify.svg" width="25px">
+        <input type="text">
+      </div>
+      <div class="profile">
+        <img src="assets/bell-circle-outline.svg" width="35px">
+        <img src="assets/hammy.jpg" class="pfp">
+        <h3>Morgan Oakley</h3>
+      </div>
+      <div class="greeting">
+        <img src="assets/hammy.jpg" class="main-pfp">
+        <div id="greet-message">
+          <h4>Hi there,</h4>
+          <h2>Morgan Oakley (@morgan)</h2>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="new">New</button>
+        <button class="upload">Upload</button>
+        <button class="share">Share</button>
+      </div>
+    </header>
+  
+    <main>
+      <div class="projects">
+        <h2>Your Projects</h2>
+        <div class="card"><h3>Super Cool Project</h3><p>I love hamsters</p></div>
+        <div class="card"><h3>Less Cool Project</h3><p>I like squirrels</p></div>
+        <div class="card"><h3>Impossible App</h3><p>Does P=NP? That is the question.</p></div>
+        <div class="card"><h3>Easy Peasy App</h3><p>1+1=2 ahh app</p></div>
+        <div class="card"><h3>Ad Blocker</h3><p>Ublock origin works on chrome still</p></div>
+        <div class="card"><h3>Money Maker</h3><p>Buy hamsterbuns coin today</p></div>
+      </div>
+
+      <div class="announcements">
+        <h2>Announcements</h2>
+        <div class="announcement-content">
+          <h4>Site Maintenance</h4>
+          <p>brain maintenance and more</p>
+          <hr>
+          <h4>Community Share Day</h4>
+          <p>feel free to share your feelings pal</p>
+          <hr>
+          <h4>Updated Privacy Policy</h4>
+          <p>we are so private and won't share your data</p>
+        </div>
+      </div>
+      
+      <div class="trending">
+        <h2>Trending</h2>
+        <div class="trending-content">
+          <ul>
+            <li><img src="assets/ham1.jpeg" class="pfp"><div class="profile-trending"><h5>@tegan</h5><p>World Peace Builder</p></div></li>
+            <li><img src="assets/ham2.jpeg" class="pfp"><div class="profile-trending"><h5>@morgan</h5><p>Super Cool Project</p></div></li>
+            <li><img src="assets/ham3.jpeg" class="pfp"><div class="profile-trending"><h5>@kendall</h5><p>Life Changing App</p></div></li>
+            <li><img src="assets/ham4.jpeg" class="pfp"><div class="profile-trending"><h5>@alex</h5><p>No Traffic Maker</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>© hamster admins 2025</footer>
+  </div>
+</body>
+</html>
